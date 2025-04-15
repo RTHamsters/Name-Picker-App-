@@ -1,0 +1,12 @@
+import java.util.Random;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("分かち合いをお願いします。");
+        System.out.println("ジャカジャカジャカジャカ・・・");
+        String[] names = {"A", "B","C", "D", "E", "F", "G"};
+        int index = new Random().nextInt(names.length);
+        String selectedName = names[index];
+        System.out.println("ジャン！");
+        System.out.println("次の発表者は" + selectedName + "です。よろしくお願いします！" );
+    }
+}
